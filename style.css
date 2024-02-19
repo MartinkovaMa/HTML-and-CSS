@@ -1,3 +1,107 @@
 h1 {
-    color:brown;
+    color:white;
+    font-size: 8Opx;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+
+    
 }
+h2 {
+    color: #756158;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+a  {
+    color:#756158;
+    font-style: italic;
+    
+}
+
+p {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body {
+    color: #282425;
+    background-color:#fff1e6;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+li  {
+    font-weight: bold;
+}
+.omne{
+    background-color: #f9e3d0;
+
+}
+.patička {
+    background-color: #282425;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.doporučení {
+    background-color:#f9e3d0 ;
+    float: left;
+    margin: 0 0 30px 30px;
+}
+.foto-omne {
+    width: 200px;
+    height: 350px;
+border-radius: 10px;
+float: right;
+margin:0 30px 30px 0;
+}
+
+.fotogalerie img {
+width: 45%;
+height: 45%;
+border: 2px solid #756158 ;
+border-radius: 10px;
+}
+.hlavička {
+    background-image: url(images/příroda.jpg);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size:cover;
+}
+
+.mlyn {
+    width:350px;
+    height:450px;
+    border-radius: 0 50px 50px 50px;
+    border: 2px solid #756158 ;
+    float:right;
+    margin: 0 0 30px 30px,
+}
+
+.section {
+    padding:50px 15% ;
+}
+
+.menu li {
+    display: inline-block;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #282425;
+}
+.menu a {
+    display: inline-block;
+color: white;
+text-decoration: none;
+padding: 20px 30px;
+}
+
+.menu a:hover {
+    background-color: #756158;
+}
+
